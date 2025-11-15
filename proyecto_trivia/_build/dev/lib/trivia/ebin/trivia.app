@@ -1,0 +1,11 @@
+{application,trivia,
+             [{modules,['Elixir.Game','Elixir.GameServer',
+                        'Elixir.GameSupervisor','Elixir.QuestionBank',
+                        'Elixir.TriviaApp','Elixir.TriviaCLI',
+                        'Elixir.UserManager']},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger]},
+              {description,"trivia"},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.TriviaApp',[]}}]}.
